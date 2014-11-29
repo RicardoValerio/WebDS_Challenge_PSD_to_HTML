@@ -1,0 +1,278 @@
+@font-face {
+    font-family: Font_OpenSansSemiBoldItalic;
+    src: url(../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff);
+}
+
+@font-face {
+    font-family: Font_OpenSansLightItalic;
+    src: url(../fonts/opensans_lightitalic_macroman/OpenSans-LightItalic-webfont.woff);
+}
+
+@font-face {
+    font-family: Font_OpenSansRegular;
+    src: url(../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: Font_OpenSansSemiBold;
+    src: url(../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff);
+}
+
+
+@font-face {
+    font-family: Font_OpenSansExtraBold;
+    src: url(../fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff);
+}
+
+ul.services{
+    margin-left: -17px;
+}
+
+ul.services li{
+    font-family: Font_OpenSansRegular;
+    font-size: 12px;
+    text-align: left;
+}
+
+ul.services .wordpress{
+    list-style-image: url(../psdtowebexercicio/images/installsicon.png);
+    padding-left: 10px;
+}
+
+ul.services .diskSpace{
+    list-style-image: url(../psdtowebexercicio/images/diskicon.png);
+    padding-left: 10px;
+}
+
+ul.services .monthVisits{
+    list-style-image: url(../psdtowebexercicio/images/visitasicon.png);
+    padding-left: 10px;
+}
+
+ul.services .git{
+    list-style-image: url(../psdtowebexercicio/images/giticon.png);
+    padding-left: 10px;
+}
+
+ul.services .seo{
+    list-style-image: url(../psdtowebexercicio/images/seoicon.png);
+    padding-left: 10px;
+}
+
+ul.services .suport{
+    list-style-image: url(../psdtowebexercicio/images/suporteicon.png);
+    padding-left: 10px;
+}
+
+ul.footerLinks{
+    margin-top: -5px;
+}
+
+.footerLinks li{
+    font-family: Font_OpenSansRegular;
+    text-align: left;
+    margin-left: -17px;
+    font-size: 13px;
+    list-style-type: none;
+    padding-top: 3px;
+}
+
+#contactForm{
+    padding:10px;
+}
+
+#contactForm label{
+    display:inline-block;
+    text-align: left;
+    width: 130px;
+    margin-left: 5px;
+    font-family: Font_OpenSansRegular;
+    font-size: 14px;
+    margin-right: 18px;
+}
+
+#contactForm label, #contactForm input, #contactForm textarea{
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#contactForm input{
+    width: 348px;
+    height: 38px;
+}
+
+#contactForm textarea{
+    resize: none;
+    width: 720px;
+    height: 153px;
+    border-color: #e6e7e8;
+}
+
+/*  */
+
+.hideContentOfBar{
+  display:none;
+}
+
+#navBars li{
+    list-style-type: none;
+    list-style-position: inside;
+    width: 180px;
+    height: 79px;
+    cursor: pointer;
+}
+
+.devtoolsActive{
+    color: green;
+    background-image: url('../images/navbar_devtools_green.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.devtoolsInactive{
+    color: white;
+    background-image: url('../images/navbar_devtools_white.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.scaleInactive{
+    color: white;
+    background-image: url('../images/navbar_scale_white.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.scaleActive{
+    color: green;
+    background-image: url('../images/navbar_scale_green.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.speedInactive{
+    color: white;
+    background-image: url('../images/navbar_speed_white.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.speedActive{
+ color: green;
+ background-image: url('../images/navbar_speed_green.png');
+ background-repeat: no-repeat;
+ line-height: 39px;
+ position: relative;
+ top: 29px;
+ left: 18px;
+ padding-left: 50px;
+}
+
+.securityInactive{
+    color: white;
+    background-image: url('../images/navbar_security_white.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.securityActive{
+    color: green;
+    background-image: url('../images/navbar_security_green.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+
+.supportInactive{
+    color: white;
+    background-image: url('../images/navbar_support_white.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.supportActive{
+    color: green;
+    background-image: url('../images/navbar_support_green.png');
+    background-repeat: no-repeat;
+    line-height: 39px;
+    position: relative;
+    top: 29px;
+    left: 18px;
+    padding-left: 50px;
+}
+
+.bgActiveNavBar{
+    background-image: url('../images/navbar_active_bgc.png');
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 79px;
+
+}
+
+.faqQuestions{
+    color: #1d71b8;
+    padding: 15px;
+    margin:7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.faqAnswers{
+    font-size: 14px;
+}
+
+.questionsDiv{
+    border: 1px solid #666;
+    padding: 6px 27px;
+    margin: 10px;
+    width: 610px;
+    font-family: Font_OpenSansRegular;
+}
+
+.questionClosed{
+    background-image: url('../images/plus.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.questionOpened{
+    background-image: url('../images/minus.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hideAnswer{
+    display:none;
+}
