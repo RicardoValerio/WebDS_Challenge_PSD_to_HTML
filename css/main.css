@@ -24,6 +24,10 @@
     src: url(../fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff);
 }
 
+body {
+    padding-top: 50px;
+}
+
 ul.services{
     margin-left: -17px;
 }
