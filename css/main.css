@@ -28,6 +28,22 @@ body {
     padding-top: 50px;
 }
 
+.OpenSemiItalicFont{
+font-family: Font_OpenSansSemiBoldItalic;
+}
+
+.OpenRegularFont{
+    font-family: Font_OpenSansRegular;
+}
+
+.OpenSemiBoldFond{
+    font-family: Font_OpenSansSemiBold;
+}
+
+.OpenLightItalicFont{
+font-family: Font_OpenSansLightItalic;
+}
+
 ul.services{
     margin-left: -17px;
 }
@@ -182,14 +198,14 @@ ul.footerLinks{
 }
 
 .speedActive{
- color: green;
- background-image: url('../images/navbar_speed_green.png');
- background-repeat: no-repeat;
- line-height: 39px;
- position: relative;
- top: 29px;
- left: 18px;
- padding-left: 50px;
+   color: green;
+   background-image: url('../images/navbar_speed_green.png');
+   background-repeat: no-repeat;
+   line-height: 39px;
+   position: relative;
+   top: 29px;
+   left: 18px;
+   padding-left: 50px;
 }
 
 .securityInactive{
@@ -279,4 +295,144 @@ ul.footerLinks{
 
 .hideAnswer{
     display:none;
+}
+
+.EscolherButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #414042;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #414042;
+    box-shadow:inset 0px 1px 0px 0px #414042;
+    background-color:#414042;
+    border:1px solid #414042;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+}
+.EscolherButton:hover {
+    color: #FFF;
+    background-color:#414042;
+}
+.EscolherButton:active {
+    color: #FFF;
+    position:relative;
+    top:1px;
+}
+
+
+.ContacteButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #1d72b8;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #1d72b8;
+    box-shadow:inset 0px 1px 0px 0px #1d72b8;
+    background-color:#1d72b8;
+    border:1px solid #1d72b8;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+}
+.ContacteButton:hover {
+    color: #FFF;
+    background-color:#1d72b8;
+}
+.ContacteButton:active {
+    color: #FFF;
+    position:relative;
+    top:1px;
+}
+
+
+#contactForm > #inputName-error,
+#contactForm > #inputEmail-error,
+#contactForm > #inputSite-error{
+    width: 390px;
+    padding-top: 9px;
+    color: red;
+    margin-left: 16px;
+}
+
+#contactForm > #inputMensagem-error{
+    width: 390px;
+    padding-top: 9px;
+    color: red;
+    display: block;
+    margin-left: 160px;
+}
+
+#navBarTop{
+    background-color: #1d71b8;
+}
+
+#navHeaderTop{
+    height: 70px;
+    padding-top: 7px;
+}
+
+#jumbo{
+    background-image: url(../images/2rollercoaster1425x30.png);
+    background-repeat: no-repeat;
+    padding-top: 65px;
+    padding-bottom: 0;
+    margin-top:21px;
+    width: 100%;
+    height: 300px;
+}
+
+#jumbo >div {
+    margin-top: -22px;
+}
+
+#jumbo .container h1{
+     color: #FFF;
+     font-size: 48px;
+}
+
+#jumbo .container p{
+     color: #FFF;
+     font-size: 48px;
+}
+
+#marcasHeader{
+    padding-top: 12px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    background-color: #1d71b8;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#marcas{
+    padding-top: 12px;
+    text-align: center;
+    color: white;
+    background-color: #e6e7e8;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#alojamentoHeader{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 67px;
+}
+
+#alojamentoHeader h3{
+    margin:67px 0 40px 0;
+    font-size:28px;
+}
+
+#alojamentoHeader p{
+    font-size: 16px;
+}
+
+#footer a{
+    color:white;
 }
